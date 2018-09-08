@@ -1,0 +1,151 @@
+html, body {
+	height: 100%;
+	font-color: black;
+}
+.main-content {
+	min-height: 99%;
+}
+.main-content:after {
+  content: "";
+  display: block;
+}
+.main-footer{
+	margin: 0 0 0 0 !important;
+}
+
+.text_beetwen_infographick {
+	font-size: 30px;
+	color: black;
+	font-family: 'OpenSans-Bold';
+	margin-top: 40px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.intro {
+	font-size: 35px;
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 70px;
+	font-family: 'OpenSans-Bold';
+}
+
+.infographick {
+	margin-bottom: 50px;
+}
+
+.infographick_item {
+	margin-bottom: 25px;
+}
+
+.infographick_item span img {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 35px;
+}
+
+.infographick_item span {
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+}
+
+.infographick_jobs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.infographick_jobs_item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.infographick_jobs_item img {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin-bottom: 25px;
+}
+
+.infographick_jobs_item div {
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+	margin-bottom: 25px;
+	margin-bottom: 45px;
+}
+
+.infographick_text {
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+	margin-bottom: 405px;
+}
+
+.horizontal-line {
+	margin-top: 25px;
+}
+
+.infographick_social_item {
+	float: left;
+	margin-bottom: 25px;
+	margin-left: 220px;
+}
+
+.infographick_social_item span img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.infographick_social_item span {
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+	margin-top: 30px;
+}
+
+.question {
+	text-align: center;
+	font-size: 45px; 
+	font-family: 'OpenSans-bold'; 
+	margin-top: 110px;
+}
+
+.answer {
+	font-size: 30px;
+	color: black;
+	font-family: 'OpenSans-Bold';
+	margin-top: 40px;
+	margin-bottom: 55px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.under_question {
+	text-align: center;
+	font-size: 25px; 
+	font-family: 'OpenSans-Regular'; 
+}
+
+.content {
+	width: 100%;
+	padding: 140px 50px 25px 10px;
+}
+
+@media(max-width: 980px) {
+	.content {
+		width: 94%;
+		padding: 140px 3% 0 10px
+	}
+}

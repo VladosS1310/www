@@ -1,0 +1,264 @@
+.intro-banner{
+	width: 100%;
+	height: 557px;
+	padding: 50px 0 0 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-image: url(img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position:  50%;
+	background-size: cover;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.6);
+}
+
+.intro-banner h2{
+	font-size: 58px;
+	font-family: 'OpenSans-Bold';
+	color: #000;
+	margin: 110px 0 0 0;
+}
+
+.intro {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	font-family: 'OpenSans-Bold';
+}
+
+.bold-text {
+	font-size: 30px;
+	color: black;
+	font-family: 'OpenSans-Bold';
+	margin-top: 70px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.content-about-course{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #fff;
+	font-family: 'OpenSans-Regular';
+}
+
+.about-course p{
+	margin: 0 0 30px 0;
+	line-height: 1.5;
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+}
+
+.main-title-about{
+	/*text-align: center;*/
+	margin: 60px 0 50px 0;
+	margin-top: 150px;
+}
+
+.main-title-about-text{
+	border: 1px solid black;
+	padding: 5px 8px 7px 8px;
+	font-size: 28px;
+}
+
+.list-of-skills {
+	margin-bottom: 50px;
+}
+
+.list-of-skills li {
+	list-style: circle;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: 'OpenSans-Regular';
+}
+
+.about-course a{
+	text-decoration: none;
+	color: #0071BC;
+	border-bottom: 1px solid #0071BC;
+}
+.about-course a:hover{
+	color: #fc4949;
+	border-bottom: 1px solid #fc4949;
+}
+
+caption {
+	margin-bottom: 25px;
+	font-family: 'OpenSans-Bold';
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+}
+
+th {
+	width: 25%;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	border: 1px solid black;
+	font-family: 'OpenSans-Regular';
+	font-size: 20px;
+} 
+
+th {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	border: 1px solid black;
+	font-family: 'OpenSans-Regular';
+	font-size: 25px;
+}
+
+@media(max-width: 480px){
+	.main-title-about-show{
+		display: none;
+	}
+	.main-title-about-hide{
+		display: block;
+	}
+}
+
+.materials li{
+	list-style: square;
+	margin: 0 0 20px 20px;
+	font-size: 18px;
+}
+
+.accordion {
+ 	width: 100%;
+}
+
+.accordion-header {
+    padding: 25px 15px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .1);
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    font-family: 'OpenSans-Regular';
+    line-height: 22px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 25px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'OpenSans-Regular';
+    line-height: 22px;
+    margin: -20px 0 20px 0;
+}
+
+.accordion-header:before{
+	content: "+";
+	font-size: 18px;
+	font-weight: bold;
+	color: #4cc8de ;
+	padding: 0 6px;
+	background-color: #070716;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	margin: 1px 0 0 0;
+}
+
+@media(max-width: 1100px){
+	.video-block{
+		width: 100%;
+		text-align: center;
+		float: left;
+		padding: 25px 0 0 10px;
+		margin: 20px 0 0 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.main-about-course{
+		width: 100%;
+		margin: 40px 0 0 0;
+		color: #000;
+		float: left;
+	}
+	.content-about-course{
+		margin: 80px 5% 0 5%;
+		width: 90%;
+	}
+
+}
+
+@media(max-width: 880px){
+	.programm-list-left, .programm-list-right{
+		width: 100%;
+	}
+	
+}
+@media(max-width: 750px){
+	.teacher{
+		width: 100%;
+	}
+}
+@media(max-width: 590px){
+	.course-lenth{
+		width:100%;
+	}
+}
+
+@media(max-width: 575px){
+	.content-about-course{
+		width: 95%;
+		margin: 80px 2.5% 0 2.5%;
+	}
+}
+
+@media(max-width: 480px){
+	.main-course-title{
+		margin: 55px 0 5px 12px;	
+	}
+	.tabs-control{
+		margin: 0 0 0 10px;
+	}
+	.tabs-control a{
+		font-size: 16px;
+	}
+	.course-lenth{
+		padding: 30px 10px 10px 10px;
+	}
+	.tab-3-more-toggle{
+		margin: 25px 0 0 10px;
+	}
+	.course-lenth-format{
+		padding: 30px 10px 10px 10px;
+	}
+}
+
+@media(max-width: 460px){
+	.accordion-header:before{
+		content: " ";
+		color: none ;
+		padding: 0 0px;
+		background-color: none;
+	}
+}
+
+
+@media(max-width: 380px){
+	.tabs-control a{
+		font-size: 14px;
+	}
+	.video-block{
+		width: 98%;
+		margin: 20px 1% 0 1%;
+	}
+}

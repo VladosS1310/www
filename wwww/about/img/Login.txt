@@ -1,0 +1,3 @@
+login: admin
+password: adminukragrocluster
+email: olga@saduprikarpatia.com.ua

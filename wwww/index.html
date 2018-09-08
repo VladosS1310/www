@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SoftTraining</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-1.8.2.min.js"></script>
+
+</head>
+<body>
+<script>
+	if ( window.location.hash ) scroll(0,0);
+setTimeout( function() { scroll(0,0); }, 100);
+
+$(function() {
+	if(window.location.hash) {
+		$('html, body').animate({
+			scrollTop: $(window.location.hash).offset().top - 65
+		}, 1000);
+	}
+
+});
+ // $(document).ready(function(){
+	//  $(".menu li a").each(function() {
+	// 	  if ($(this).next().length > 0) {
+	// 	   $(this).addClass("parent");
+	// 	  };
+	//  });
+	//  var menux = $('.menu li a.parent');
+	//  $( '<div class="more"><img src="img/btn-hamburger.png" alt=""></div>' ).insertBefore(menux);
+	//  $('.more').click(function(){
+	//    $(this).parent('li').toggleClass('open');
+	//  });
+	//  $('.menu-btn').click(function(){
+	//    $('nav').toggleClass('menu-open');
+	//  });
+ // });
+ </script>
+<script>
+   $(document).ready(function(){
+		$('[href^="#"]').click(function() {
+		  if ($(this).attr('href') == '#') {}
+		  else {
+		    $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top - 65}, 500);
+		    return false;
+		  }
+		});  
+	});
+</script>
+	<div class="main-header">
+		<div class="wrapper">
+			<!--
+			<div class="logo">
+				SoftTreaning
+			</div>
+			
+			<div class="main-menu">
+				<ul class="menu">
+					<li><a href="#">Курсы</a></li>
+					<li><a href="#">Расписание</a></li>
+					<li><a href="#">Лаборатория</a></li>
+					<li><a href="#">Экзамены</a></li>
+					<li><a href="#">Карта обучения</a></li>
+					<li><a href="#">Специальности</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">О нас</a></li>
+				</ul>
+			</div>
+			-->
+			<div class="logo">
+				<a href="#main-index">Soft Training Club</a>
+			</div>
+			<nav>
+				<!-- <div class="menu-btn"><img src="img/btn-hamburger.png" alt=""></div> -->
+				<ul class="menu">
+					<li><a href="#our-courses">Курсы</a></li>
+					<!-- <li><a href="#">Экзамены</a></li>
+					<li><a href="#">Контакты</a></li> -->
+					<li><a href="about/index.html">О проекте</a></li>
+					<!--
+					<li><a href="#">Лаборатория</a></li>
+					<li><a href="#">Карта обучения</a></li>
+					<li><a href="#">Специальности</a></li>
+					<li><a href="#">Новости</a></li>
+					-->
+					</ul>
+			 </nav>
+
+		</div>
+	</div>
+	<div class="banner" id="main-index">
+		<div class="wrapper">
+			<div class="invite-block">
+				<h2>Мы помогаем каждому достичь образовательных и карьерных целей в IT</h2>
+				<!--
+				<form action="">
+					<input type="text">
+					<input type="text">
+					<input type="submit" class="submit-send" value="Записаться" />
+				</form>
+				-->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="main-courses" id="our-courses">
+			<h2>Наши программы</h2>
+			<div class="main-courses-arrow"></div>
+			<div class="courses-blocks">
+
+			<div class="courses-block intro-to-it-block">
+					<a href="courses/introduction2it/index.html">
+						<!--<img src="img/intro-to-it-block.jpg" alt="">-->
+						<div class="overlay-block">
+							<h2>Найди своё место в <br>IT индустрии</h2>
+						</div>
+					</a>
+				</div>
+
+				<div class="courses-block road-60">
+					<a href="courses/road-60/index.html">	
+						<!--<img src="img/hp-logo.jpg" alt="">-->
+						<div class="overlay-block">
+							<h2>"Трасса 60"</h2>
+						</div>
+					</a>
+				</div>
+
+				<div class="courses-block java-block">
+					<a href="courses/java/index.html">	
+						 <!-- <img src="img/java-logo.jpg" alt=""> -->
+						<div class="overlay-block">
+							<h2>Java</h2>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix"></div>
+			
+				</div>
+
+			</div>
+		</div>
+		<div class="quote">
+			<span class="text">
+				Этот сайт, а также все графические материалы создаются нашими 	 студентами.<br> 
+		
+				Если Вам нужны программисты, дизайнеры, разработчики игр, маркетологи, видео-эдиторы и другие специалисты, работающие с IT технологиями, с хорошей подготовкой, но без опыта работы – обращайтесь.
+			</span>
+		</div>	
+		
+	<div class="main-footer">
+		<div class="wrapper">
+				<div class="contacts">
+					<p>Контакты</p>
+				</div>
+				<div class="footer-feedback clearfix">
+					<div class="footer-email">
+						<span class="upper-email-feedpack">Остались вопросы ? Задавайте <span class="email-feedback">softtrainingclub@sites.ua</span></span>
+						<br>
+						<div class="phone-number">Телефон : <span>+38 063 772 89 70</span></div>
+					</div>
+					<span class="footer-social-link">Мы в социальных сетях<a href="https://www.facebook.com/softtrainingclub"><img src="img/facebook.png" alt="facebook_group"></a></span>
+				</div>
+			</div>
+	</div>
+	
+</body>
+</html>
